@@ -1,0 +1,34 @@
+.input{
+    padding: 10px;
+    width:40%;
+    border-radius: 5px;
+}
+.button{
+    padding: 10px;
+    margin-left: 1px;
+    border-radius: 5px;
+    font-weight:bold;
+
+}
+.actions{
+   cursor: pointer;
+
+}
+
+.todo-list{
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo-list .checkbox{
+  display: flex;
+}
+
+.action-button{
+  cursor: pointer;
+  display: flex;
+  margin-top: 4%;
+}
